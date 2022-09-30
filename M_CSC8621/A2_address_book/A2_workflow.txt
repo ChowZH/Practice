@@ -1,0 +1,66 @@
+Essential functions:
+A. Store (Name, Address, Phone Num, Birthday)
+B. All people in list
+C. Search functionality for each detail, return list
+D. Save all to csv file
+E. Editing csv file
+
+Workflow:-
+
+Take input:
+    Option of functionality:
+        Make new:
+            create new class
+            store in csv file
+            output unique ID
+        list by category:
+            All
+            by Name
+            by Address
+            by Phone
+            by Birthday
+        Search by ID:
+            Stream through csv for ID
+        Edit entry
+            Only by ID (unique)
+
+Person as class
+    Take input of
+        Name
+        Address
+        Phone
+        Birthday
+        generate unique ID
+
+main():
+    run = true
+    while run == true:
+        get_input = true
+        while get_input == true:    
+            input (options 1, 2, 3):
+            1_make_new:
+                open file (a)
+                close file
+                get_input = false
+            2_list_by_category:
+                open file (r)
+                close file
+                get_input = false
+            3_edit_entry:
+                open file (w)
+                close file
+                get_input = false
+            exception:
+                get_input = true
+
+        get_input = true
+        while get_input = true
+            input (no more? 1, 2):
+                1_more:
+                    run = true
+                    get_input = false
+                2_no:
+                    run = false
+                    get_input = false
+            exception:
+                get_input = true
